@@ -1,27 +1,256 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
-    <title>Coming Soon</title>
+    <title>pro</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 </head>
+<style>
+
+
+.typing{
+    position: absolute;
+        top: 110%;
+        bottom: 10%;
+
+    color: #cf23cf;
+
+}
+.text {
+    color: white;
+    margin-bottom: 1225px;
+   font-size: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    height: 100vh;
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+  }
+  
+
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+  .wrapper {
+    height: 100vh;
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+  }
+  
+  .typing-demo {
+    font-size: 70px;
+            background: linear-gradient(to right, #f32170,
+                    #ff6b08, #cf23cf, #eedd44);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+    width: 55ch;
+    animation: typing 3s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 44px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+    .diffrent {
+
+
+        text-align: center;
+        text-align: ;
+  
+            font-size: 65px;
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(to right, #f32170,
+                    #ff6b08, #cf23cf, #eedd44);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+
+    }
+
+    body{
+    background-image: linear-gradient(
+        to bottom,
+        #03001C 0%,
+        #03001C 30%,
+        #03001C 30%,
+        #03001C 100%
+    );
+    height: 100vh;
+}
+
+
+    div {
+        left: 50%;
+        bottom: 50%;
+    }
+
+.arrow {
+    position: absolute;
+    top: 60%; 
+    bottom: 60%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+}
+
+.arrow span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid blueviolet;
+    border-right: 5px solid blueviolet;
+    transform: rotate(45deg);
+    animation: scroll 2s infinite;
+
+
+}
+
+.arrow span:nth-child(2){
+    animation-delay: -.2s;
+}
+
+.arrow span:nth-child(2){
+    animation-delay: -.4s;
+}
+
+@keyframes scroll {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px, 20px);
+    }
+}
+
+.hi {
+  color: #ffffff;
+  position: absolute;
+  top: 55%;
+  font-size: xx-large;
+  margin-bottom: 50px;
+  font-family: monospace;
+}
+
+h1 {
+  font-family: monospace;
+  margin-bottom: 50px
+}
+
+button{
+  background-color: #ffffff;
+  border: none;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 80%;
+  left: 10%;
+  padding: 20px 50px;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 25px;
+}
+
+.button1 {
+  background-color: #ffffff;
+  border: none;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 85%;
+  left: 30%;
+  padding: 20px 50px;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 25px;
+}
+.button2 {
+  background-color: #ffffff;
+  border: none;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 85%;
+  left: 50%;
+  padding: 20px 50px;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 25px;
+}
+
+.button3 {
+  background-color: #ffffff;
+  border: none;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 85%;
+  left: 70%;
+  padding: 20px 50px;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 25px;
+}
+
+.button4 {
+  background-color: #ffffff;
+  border: none;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 85%;
+  left: 70%;
+  padding: 20px 50px;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 25px;
+}
+</style>
 <body>
-    <div class="uc__wrapper">
-        <div class="uc__details">
-            <h1 class="title">Site down</h1>
-            <h3 class="intro">
-                Site in matinence mode
-            </h3>
-            <p class="uc__description">
-                We are working hard on it & the site may go live very soon. We promise, it will be worth the wait!
-            </p>
-            >
-        </div>
-        <div class="uc__art">
-            <img src="LoadingPinkMan.gif" alt="">
-        </div>
+    <div style="height: 100px">
+
+
+        <h1 class="typing-demo">Hi I'm Rapo, a Web Developer and Discord Bot Programmer</h1>
+
     </div>
+
+    
+
+<button type="button" class="button1" onclick="location.href='aboutme.html'">ABOUT ME</button>
+<button type="button" class="button2" onclick="location.href='projects.html'">PROJECTS</button>
+<button type="button" class="button3"onclick="location.href='contact.html'">CONTACT</button>
+
+
+
+
 </body>
 </html>
