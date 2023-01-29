@@ -329,7 +329,7 @@ h3{
 	position: relative;
 }
 
-.snow, .snow:before, .snow:after {
+.snow, .snow:before, .snow:after  {
   position: absolute;
   top: -650px;
   left: 0;
@@ -345,7 +345,7 @@ h3{
   radial-gradient(4px 4px at 150px 300px, #fff 50%, transparent), 
   radial-gradient(6px 6px at 250px 400px, #fff 50%, transparent), 
   radial-gradient(3px 3px at 350px 500px, #fff 50%, transparent);
-  background-size: 650px 650px;
+  background-size: 1000px 1000px;
   animation: snow 3s linear infinite;
   content: "";
 }
@@ -374,6 +374,25 @@ h3{
 
 .title3 {
   font-size: 30px;
+  font-weight: 700;
+  color: white;
+  align-self: center;
+}
+
+.html {
+  size: 100px;
+}
+
+.whiteicons {
+  font-size: 50px;
+  position: absolute;
+  left: 45%;
+  color: rgb(255, 255, 255);
+  size: 50px;
+}
+
+.title4 {
+  font-size: 20px;
   font-weight: 700;
   color: white;
   align-self: center;
