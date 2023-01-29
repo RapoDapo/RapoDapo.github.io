@@ -397,3 +397,10 @@ h3{
   color: white;
   align-self: center;
 }
+
+.CREATE {
+  font-size: 500px;
+  font-weight: bold;
+  font-family: monospace;
+  color: white;
+}
