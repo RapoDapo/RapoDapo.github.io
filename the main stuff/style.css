@@ -206,7 +206,7 @@ h3{
 }
 
 .Games_top__lxBrn {
-  background-color: rgba(69, 11, 83, 0.67);
+  background-color: rgba(65, 60, 60, 0.67);
   opacity: 0;
   position: absolute;
   width: 100%;
@@ -386,7 +386,7 @@ h3{
 .whiteicons {
   font-size: 50px;
   position: absolute;
-  left: 45%;
+  left: 40%;
   color: rgb(255, 255, 255);
   size: 50px;
 }
@@ -403,4 +403,48 @@ h3{
   font-weight: bold;
   font-family: monospace;
   color: white;
+}
+
+#popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.popup-content {
+  background-color: #000000;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  position: absolute;
+  left: 30%;
+  width: 40%;
+  height: 40%;
+  color: white;
+}
+
+#close-popup {
+  color: white;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  left: 47%;
+  top: 80%;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.popup-content p {
+  position: absolute;
+  font-size: 20px;
+  max-width: 500px;
+  left: 10%;
+  font-family: monospace;
 }
