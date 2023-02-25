@@ -1,5 +1,8 @@
 body {
     background-color: black;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -21,9 +24,7 @@ p  {
 }
 
 #sitedown {
-    position: absolute;
-    left: 19%;
-    top: 30%;
+    display: flex; justify-content: center; align-items: center;
 }
 
 #hand {
@@ -32,22 +33,21 @@ p  {
     top: 30%;
 }
 
-.pc {
-    display: block;
-}
 
-/* Mobile styles */
-.mobile {
-    display: none;
-}
 
-/* Media query for devices with a maximum width of 768px */
-@media only screen and (max-width: 768px) {
-    .pc {
-        display: none;
-    }
-    
-    .mobile {
-        display: block;
-    }
-}
+
+  
+.container {
+    height: 1334px;
+    width: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+  }
+  
+.container img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+  }
