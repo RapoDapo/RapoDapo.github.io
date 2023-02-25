@@ -31,3 +31,23 @@ p  {
     left: 60%;
     top: 30%;
 }
+
+.pc {
+    display: block;
+}
+
+/* Mobile styles */
+.mobile {
+    display: none;
+}
+
+/* Media query for devices with a maximum width of 768px */
+@media only screen and (max-width: 768px) {
+    .pc {
+        display: none;
+    }
+    
+    .mobile {
+        display: block;
+    }
+}
